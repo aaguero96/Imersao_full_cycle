@@ -1,13 +1,13 @@
 # Introducao
 
-# # Sem container (antigamente)
+## Sem container (antigamente)
 
 - Uso de maquinas virtuais
 - Virtualiza o sistema operacional inteiro
 - "Roubo" de memoria RAM do computador
 - Varias maquinas virtuais geram muito custo
 
-# # Container (hoje)
+## Container (hoje)
 
 - Apenas um processo
 - Não precisa do "Roubo" de memória do computador
@@ -19,23 +19,23 @@
 
 # Agentes do docker
 
-# # Docker Deamon
+## Docker Deamon
 
 - Servidor que administra os containers
 
-# # Docker Client
+## Docker Client
 
 - Se comunica com o deamon
 - Chama o deamon por comandos no terminal
 
 # Container e Imagem
 
-# # Imagem
+## Imagem
 
 - Define o ambiente em que será executado
 - "Como se fosse uma classe"
 
-# # Container
+## Container
 
 - Inicia a imagem tornando-a um container
 - "Como se fosse a instancia da classe"
@@ -57,7 +57,7 @@
 - Para criar imagens personalizadas iremos criar um arquivo Dockerfile
 - Esse arquivo ficarao comandos que criarao a imagem personalizada
 
-# # Comandos Dockerfile
+## Comandos Dockerfile
 
 1. FROM <IMG_BASE> - A imagem será criada com uma imagem base (<IMG_BASE>)
 
