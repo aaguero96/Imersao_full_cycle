@@ -9,3 +9,8 @@
 
 - [Link para youtube](https://www.youtube.com/watch?v=y4CayhdrSOY)
 - [Link para meus registros](./Aula%202/)
+
+## Aula 3 - Comunicação assíncrona com Apache Kafka
+
+- [Link para youtube](https://www.youtube.com/watch?v=_2g7SdiMdvE)
+- [Link para meus registros](./Aula%203/)
