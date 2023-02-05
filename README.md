@@ -8,4 +8,4 @@
 ## Aula 2 - Arquitetura Hexagonal com Nest.js
 
 - [Link para youtube](https://www.youtube.com/watch?v=y4CayhdrSOY)
-- [Link para meus registros](./Aula%201/)
+- [Link para meus registros](./Aula%202/)
