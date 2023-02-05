@@ -47,5 +47,26 @@
 - Podemos notar que a leitura das mensagens pode ocorrer a qualquer momento, caso nao sejam removidas
 - Faremos um teste, no terminal consumer rodar o comando `kafka-console-consumer --bootstrap-server=localhost:9092 --topic=nfe`
 - E no terminal producer mandar uma nova mensagem `{"status": 2}`
-- Somente aparecera essa mensagem nova no terminal consumer pois nao foi passada a tag `--from-begining`
+- Somente aparecera essa mensagem nova no terminal consumer pois nao foi passada a tag `--from-beginning`
 - Mas para nao ficarmos presos ao terminal faremos um programa para enviar e ler mensagens usando golang
+- Para isso precisamos iniciar um projeto
+- Tambem precisaremos trabalhar com o terminal caso nao tenha go instalado na maquina
+- `docker compose exec goapp bash`
+- Dentro do container goapp
+- `go mod init github.com/aaguero96/Imersao_full_cycle/tree/main/Aula_3`
+- Criaremos uma pasra `cmd` na raiz do projeto
+- Dentro da pasta `cmd` criamremos duas pastas, uma delas `producer` e a outra `consumer`
+- Dentro da pasta `producer` faremos um arquivo `main.go` onde colocaremos somente um fmt.Println (log no console) dentro de uma funcao main
+- Agora iremos rodar o main para ver se funciona
+- `go run cmd/producer/main.go`
+- Agora faremos uma nova funcao no `producer.go` chamada Produce que recebera uma mensagem e um topico e sera responsavel por enviar essa mensagem ao KAFKA
+- Rodando novamente o programa
+- `go run cmd/producer/main.go` (Devemos para-lo apos algum tempo pois o programa é um loop infinito de envio)
+- Percebemos que as mensagens foram todas enviadas
+- Dentro da pasta `consumer` faremos um arquivo `main.go` onde colocaremos uma funcao Consume que recebe os topicos que eu quero fazer a leitura, os servidores do KAFKA que posso me conectar e um chanel e ele é responsavel por ler as mensagens e coloca-las no console
+
+# Comando terminal
+
+1. Iniciar um programa em go em uma pasta (<PATH>) - `go mod init <PATH>`
+
+2. Iniciar programa go (<FILE>) - `go run <FILE>`
