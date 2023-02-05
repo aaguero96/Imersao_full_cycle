@@ -14,3 +14,8 @@
 
 - [Link para youtube](https://www.youtube.com/watch?v=_2g7SdiMdvE)
 - [Link para meus registros](./Aula_3/)
+
+## Aula 4 - Server Side Rendering com Next.js
+
+- [Link para youtube](https://www.youtube.com/watch?v=pdIr9XPJV_4)
+- [Link para meus registros](./Aula_4/)
