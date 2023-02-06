@@ -26,7 +26,21 @@
 
 ## Tipos de pagina
 
-- 
+1. Static
+
+- Pagina renderizada somente uma vez no lado do servidor, sem dependencias externas
+
+2. SSG (Static Site Genaration)
+
+- Pagina renderizada somente uma vez no lado do servidor, ou seja, caso tenha alguma chamada externa e a pagina dependa disso para renderizar, sera feita essa chamado uma vez so
+
+3. ISG (Increment static regenaration)
+
+- Pagina renderizada no lado do servidor mas caso tenha alguma chamada externa e a pagina dependa disso para renderizar é feito o recaregamento da pagina de tempos em tempos
+
+4. Server
+
+- Pagina dinamica renderizada no lado do servidor com mudancas feitas via straming
 
 # Exemplo
 
